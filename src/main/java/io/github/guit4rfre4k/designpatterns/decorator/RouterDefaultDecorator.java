@@ -34,4 +34,9 @@ public abstract class RouterDefaultDecorator implements Router {
 		return router.getRouterInfo();
 	}
 
+	public void close() throws Exception {
+	}
+	
+	
+
 }

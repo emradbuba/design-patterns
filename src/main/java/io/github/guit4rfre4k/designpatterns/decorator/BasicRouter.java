@@ -54,4 +54,8 @@ public class BasicRouter implements Router {
 		return builder.toString();
 	}
 
+	public void close() throws Exception {
+		// no action here
+	}
+
 }
