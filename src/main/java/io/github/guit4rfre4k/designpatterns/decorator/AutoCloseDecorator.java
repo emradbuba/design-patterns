@@ -2,6 +2,12 @@ package io.github.guit4rfre4k.designpatterns.decorator;
 
 import org.apache.log4j.Logger;
 
+/**
+ * This decorator simulates a sample auto closable actions - actions which
+ * should be executed in "try with resource" structure.
+ * 
+ * @author rmu
+ */
 public class AutoCloseDecorator extends RouterDefaultDecorator {
 
 	private static Logger LOG = Logger.getLogger(BasicRouter.class);
