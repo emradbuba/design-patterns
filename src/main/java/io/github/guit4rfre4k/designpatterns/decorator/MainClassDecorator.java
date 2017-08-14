@@ -1,7 +1,15 @@
 package io.github.guit4rfre4k.designpatterns.decorator;
 
 import org.apache.log4j.Logger;
-
+/**
+ * The example with router shows a sample implementation of the decorator design pattern. 
+ * In this example it is assumed, that the Router class represents some router device to
+ * which the user can send some commands (in example, commands are unreal and used as demo).
+ * Decorrators are used in order to add some extra functionalities to the base implementation
+ * like auto-connecting, automatic disconnection, clearing some resources in AutoClosable manner etc...
+ *  
+ * @author rmu
+ */
 public class MainClassDecorator {
 
 	private static Logger LOG = Logger.getLogger(MainClassDecorator.class);
