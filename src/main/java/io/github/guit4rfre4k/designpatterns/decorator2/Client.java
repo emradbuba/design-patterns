@@ -18,8 +18,8 @@ public class Client {
     }
 
     void businnessLogic() {
-        System.out.println("Client");
         component.bussinessLogic();
+        System.out.println("Client's action");
     }
 
 }

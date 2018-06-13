@@ -11,8 +11,7 @@ package io.github.guit4rfre4k.designpatterns.decorator2;
  */
 class Decorator implements IComponent {
 
-    private static int nameIdx = 0;
-    private IComponent component;
+    private final IComponent component;
     private final String name;
 
     public Decorator(IComponent component, String name) {
@@ -22,8 +21,8 @@ class Decorator implements IComponent {
 
     @Override
     public void bussinessLogic() {
+        System.out.println("Decorator's action (" + name + ")");
         component.bussinessLogic();
-        System.out.println("Decorator" + name);
     }
 
 }
