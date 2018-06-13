@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author guit4rfre4k
  */
-public class Composite implements InterfaceComponent {
+class Composite implements InterfaceComponent {
 
     private static int index = 1;
     private final List<InterfaceComponent> components = new ArrayList<>();

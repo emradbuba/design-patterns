@@ -5,11 +5,13 @@
  */
 package io.github.guit4rfre4k.designpatterns.strategy;
 
+import java.util.Iterator;
+
 /**
  *
  * @author ezmuzra
  */
-public class Context {
+class Context {
 
     public static void main(String[] args) {
         Client client = new Client();
@@ -22,6 +24,7 @@ public class Context {
         strategy = new DocStrategy();
         client.setGeneratingStrategy(strategy);
         client.generateDocument();
+        Iterator<String> it;
     }
 
 }

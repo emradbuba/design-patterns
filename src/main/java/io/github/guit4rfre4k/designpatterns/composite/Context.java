@@ -9,7 +9,7 @@ package io.github.guit4rfre4k.designpatterns.composite;
  *
  * @author guit4rfre4k
  */
-public class Context {
+class Context {
 
     public static void main(String[] args) {
         Composite root = new Composite();

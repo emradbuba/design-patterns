@@ -9,7 +9,7 @@ package io.github.guit4rfre4k.designpatterns.proxy.adapter;
  *
  * @author guit4rfre4k
  */
-public class Context {
+class Context {
 
     public static void main(String[] args) {
 

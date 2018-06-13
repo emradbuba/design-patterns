@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package io.github.guit4rfre4k.designpatterns.composite;
+package io.github.guit4rfre4k.designpatterns.observer;
 
 /**
  *
- * @author guit4rfre4k
+ * @author ezmuzra
  */
-interface InterfaceComponent {
+public interface IObserver {
 
-    public void action();
+    public void reactOnChange(ISubject subject);
 
 }

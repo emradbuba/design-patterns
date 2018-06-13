@@ -9,7 +9,7 @@ package io.github.guit4rfre4k.designpatterns.decorator2;
  *
  * @author ezmuzra
  */
-public class Context {
+class Context {
 
     public static void main(String[] args) {
 
