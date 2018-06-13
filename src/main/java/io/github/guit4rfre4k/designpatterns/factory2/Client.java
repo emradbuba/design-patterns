@@ -7,7 +7,7 @@ package io.github.guit4rfre4k.designpatterns.factory2;
 
 /**
  *
- * @author ezmuzra
+ * @author guit4rfre4k
  */
 public class Client {
 

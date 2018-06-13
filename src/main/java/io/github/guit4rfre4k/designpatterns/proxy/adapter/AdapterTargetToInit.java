@@ -2,7 +2,7 @@ package io.github.guit4rfre4k.designpatterns.proxy.adapter;
 
 /**
  *
- * @author ezmuzra
+ * @author guit4rfre4k
  */
 public class AdapterTargetToInit implements InitialInterface {
 

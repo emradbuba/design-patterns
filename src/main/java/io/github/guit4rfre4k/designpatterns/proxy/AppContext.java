@@ -7,7 +7,7 @@ package io.github.guit4rfre4k.designpatterns.proxy;
 
 /**
  *
- * @author ezmuzra
+ * @author guit4rfre4k
  */
 public class AppContext {
 
