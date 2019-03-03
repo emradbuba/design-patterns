@@ -6,7 +6,6 @@
 package io.github.guit4rfre4k.designpatterns.composite;
 
 /**
- *
  * @author guit4rfre4k
  */
 public class Client {
