@@ -1,6 +1,6 @@
 package io.github.guit4rfre4k.designpatterns.decorator;
 
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * Decorator responsible for ensure the auto connection before each send in
@@ -9,9 +9,8 @@ import org.apache.log4j.Logger;
  * @author rmu
  *
  */
+@Slf4j
 public class RouterAutoConnectDecorator extends RouterDefaultDecorator {
-
-	private static final Logger LOG = Logger.getLogger(RouterAutoConnectDecorator.class);
 
 	public RouterAutoConnectDecorator(Router router) {
 		super(router);
@@ -27,7 +26,7 @@ public class RouterAutoConnectDecorator extends RouterDefaultDecorator {
 		if (!isConnected()) {
 			super.connect();
 		} else {
-			LOG.info("Router already connected - no need to connect");
+			log.info("Router already connected - no need to connect");
 		}
 	}
 
