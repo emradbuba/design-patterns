@@ -1,15 +1,15 @@
 package io.github.guit4rfre4k.designpatterns.decorator;
 
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * Main class for starting the decorator design pattern demo.
  * 
  * @author rmu
  */
+@Slf4j
 public class MainClassDecorator {
 
-	private static Logger LOG = Logger.getLogger(MainClassDecorator.class);
 
 	/**
 	 * A sample query to router without any particular sense - just for demo
@@ -27,7 +27,7 @@ public class MainClassDecorator {
 				new RouterAutoDisconnectDecorator(new RouterAutoConnectDecorator(new BasicRouter("JuniperRouter")))))) {
 			router.send(COMMAND_1);
 			router.send(COMMAND_2);
-			LOG.info(router.getRouterInfo());
+			log.info(router.getRouterInfo());
 		} catch (Exception e) {
 			// Some logic performed in case of unexpected failures
 		}
